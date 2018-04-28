@@ -37,7 +37,7 @@ import vn.manroid.scanner.camera.CameraSource;
 import vn.manroid.scanner.camera.CameraSourcePreview;
 import vn.manroid.scanner.camera.GraphicOverlay;
 
-public class MainActivity  extends AppCompatActivity {
+public class ScanActivity extends AppCompatActivity {
 
     private static final String TAG = "OcrCaptureActivity";
     // Intent request code to handle updating play services if needed.
@@ -64,7 +64,7 @@ public class MainActivity  extends AppCompatActivity {
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_scan);
 
         mPreview = (CameraSourcePreview) findViewById(R.id.preview);
         mGraphicOverlay = (GraphicOverlay<OcrGraphic>) findViewById(R.id.graphicOverlay);
