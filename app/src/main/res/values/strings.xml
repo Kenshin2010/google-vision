@@ -12,9 +12,9 @@
     <string name="ocr_success">Text read successfully</string>
     <string name="ocr_failure">No text captured</string>
     <string name="ocr_error">"Error reading text: %1$s"</string>
-    <string name="policy"><u>By proceeding, you agree with Privacy Policy</u></string>
+    <string name="policy"><u>- By proceeding, you agree with Privacy Policy -</u></string>
     <string name="start">START</string>
-    <string name="des">Camera to PDF scanner, editor to scan picture to PDF</string>
+    <string name="des">Camera to card scanner</string>
     <string name="card_scan">CARD SCANNER</string>
 
 </resources>
